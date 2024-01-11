@@ -39,19 +39,25 @@ This project includes Intermediate JavaScript & Firebase concepts.
 1. Countdown Example 
 
 ![Sign Up Page](/assets/signup-page.png)
-![Sign Up Page Alert](/assets/signup-alert.png)
 ![Login Page](/assets/login-page.png)
-![Error Alert](/assets/error.png)
+![Countdown Page](/assets/countdown-page.png)
 
 2. Birthday Quote Example 
 
 ![Sign Up Page for Birthday](/assets/signup-page-for-birthday.png)
 ![Login Page for Birthday](/assets/login-page-for-birthday.png)
-![Firebase Auth dashboard](/assets/firebase-auth.png)
-![Firebase Realtime Database dashboard](/assets/firebase-realtime-db.png)
-![Countdown Page](/assets/countdown-page.png)
+
 ![Birthday Quote Page](/assets/birthday-quote-page.png)
 
+3. Alerts
+
+![Sign Up Page Alert](/assets/signup-alert.png)
+![Error Alert](/assets/error.png)
+
+4. Firebase Auth and Realtime Database dashboard
+
+![Firebase Auth dashboard](/assets/firebase-auth.png)
+![Firebase Realtime Database dashboard](/assets/firebase-realtime-db.png)
 
 ## Setup
 
