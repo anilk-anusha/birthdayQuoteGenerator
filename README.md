@@ -7,14 +7,14 @@ This project includes Intermediate JavaScript & Firebase concepts.
 ## Table of Contents
 
 - [Topics Covered](#topics-covered)
-- [Technologies](#technologies)
+- [TO-DO](#TO-DO)
 - [Setup](#setup)
 - [Screenshots](#screenshots)
 - [Status](#status)
 - [References](#references)
 
 
-## TO - DO
+## TO-DO
 
 - [x] A sign-up page that takes the user’s name, date of birth, email, and password.
 - [x] Use a date picker to take the user’s birthdate
