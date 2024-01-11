@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links for the working of Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-database-compat.js"></script>
+    <title>Birthday Quote Generator</title>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+        <!-- =>Assignment Requirements: If the user’s birthday is today, display a happy birthday message with their name and a  random quote from the https://type.fit/api/quotes API endpoint.-->
+        <h1>🎉 Happy Birthday, <span id="username"></span>! 🎂</h1>
+        <div id="quoteContainer">
+            <!-- Displaying a random quote here -->
+        </div>
+        <div id="quoteAuthor">
+            <!-- Displaying quote author here -->
+        </div>
+        <!-- Logout button -->
+        <button id="logoutBtn">Logout</button>
+    
+    <script type="module" src="birthday.js"></script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+

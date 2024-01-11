@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links for the working of Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-database-compat.js"></script>
+    <title>Birthday Quote Generator</title>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- =>Assignment Requirements: A sign-up page that takes the user’s name, date of birth, email, and password.  -->
+    <h1>🎊 Welcome to the Birthday Quote Generator 🎊</h1>
+    <p>Sign up below to receive a quote. You will be given a wonderful quote if it's your birthday today. 🥳🎉</p>
+    <form id="signupForm">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <!-- REF: https://www.w3schools.com/tags/att_input_required.asp -->
+            <!-- =>Assignment Requirements: Date Picker: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date -->
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <button id="signupbtn" type="submit">Sign Up</button>
+        </div>
+        <div>
+            <p id="loginText">Already a user? <a href="login.html" id="loginLink">Login here</a></p>
+        </div>
+    </form>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
