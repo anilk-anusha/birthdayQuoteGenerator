@@ -1,4 +1,4 @@
-# Quote Bakery - Birthday Quote Generator 
+# Quirky Quotes - Birthday Quote Generator 
 
 ## Overview
 
