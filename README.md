@@ -1,20 +1,26 @@
 # Quirky Quotes - Birthday Quote Generator 
 
-## Overview
+## Version 2.0 is now live!
+
+Version 2.0 of Quirky Quotes is built with ReactJS for UI and Firebase for database and authentication. 
+GitHub Repo:  [quirky-quotes]()
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Version 1.0:
 
 This project includes Intermediate JavaScript & Firebase concepts.
 
 ## Table of Contents
 
-- [Topics Covered](#topics-covered)
-- [TO-DO](#TO-DO)
+- [TO-DO](#to-do)
 - [Setup](#setup)
 - [Screenshots](#screenshots)
 - [Status](#status)
 - [References](#references)
 
 
-## TO-DO
+### TO-DO
 
 - [x] A sign-up page that takes the user’s name, date of birth, email, and password.
 - [x] Use a date picker to take the user’s birthdate
@@ -26,7 +32,7 @@ This project includes Intermediate JavaScript & Firebase concepts.
 
 
  
-## Technologies
+### Technologies
 
 - HTML5
 - CSS3
@@ -34,7 +40,7 @@ This project includes Intermediate JavaScript & Firebase concepts.
 - Firebase
 
 
-## Screenshots
+### Screenshots
 
 1. Countdown Example 
 
@@ -59,10 +65,10 @@ This project includes Intermediate JavaScript & Firebase concepts.
 ![Firebase Auth dashboard](/assets/firebase-auth.png)
 ![Firebase Realtime Database dashboard](/assets/firebase-realtime-db.png)
 
-## Setup
+### Setup
 
 
-### Prerequisites
+#### Prerequisites
 
 Make sure you have the following installed on your machine:
 
@@ -70,7 +76,7 @@ Make sure you have the following installed on your machine:
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-### Firebase Project Setup
+#### Firebase Project Setup
 
 1. **Create a Firebase Project:**
    - Go to the [Firebase Console](https://console.firebase.google.com/).
@@ -87,7 +93,7 @@ Make sure you have the following installed on your machine:
    - In the Firebase Console, go to "Project settings" (gear icon).
    - Under the "General" tab, find the Firebase SDK snippet and copy the configuration object.
 
-### Project Initialization
+#### Project Initialization
 
 1. **Create a new project:**
    - Open VS Code and create a new folder for your project.
@@ -117,7 +123,7 @@ Make sure you have the following installed on your machine:
      ```
      - Choose "Firestore" and "Functions" when prompted. Select the Firebase project you created earlier.
 
-### Code Integration
+#### Code Integration
 
 1. **Install Firebase SDK:**
    - Install the Firebase SDK in your project:
@@ -131,7 +137,7 @@ Make sure you have the following installed on your machine:
 3. **Write Realtime Database Code:**
    - Write the code to interact with the Firebase Realtime Database using the Firebase Realtime Database SDK.
 
-### Testing Locally
+#### Testing Locally
 
 1. **Run your project locally:**
    - Use the following command to run your project locally:
@@ -143,7 +149,7 @@ Make sure you have the following installed on your machine:
 2. **Test Authentication and Database Interaction:**
    - Open your browser and go to the specified localhost address to test your Firebase Authentication and Realtime Database interactions.
 
-### GitHub Setup
+#### GitHub Setup
 
 1. **Initialize Git:**
    - If you haven't already, initialize a Git repository in your project folder:
@@ -166,10 +172,10 @@ Make sure you have the following installed on your machine:
 Now, your GitHub project is set up with Firebase Auth and Firebase Realtime Database integration, and you can continue developing and deploying your application.
 
 
-## Status
+### Status
 
 Project Status: Completed
 
-## References
+### References
 
 https://firebase.google.com/
