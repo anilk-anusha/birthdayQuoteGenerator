@@ -3,7 +3,7 @@
 ## Version 2.0 is now live!
 
 Version 2.0 of Quirky Quotes is built with ReactJS for UI and Firebase for database and authentication. 
-GitHub Repo:  [quirky-quotes]()
+GitHub Repo:  [quirky-quotes](https://github.com/anilk-anusha/quirky-quotes)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
